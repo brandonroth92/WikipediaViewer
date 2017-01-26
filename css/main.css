@@ -1,0 +1,65 @@
+body {
+  background-color: #33454E;
+  padding-top: 15em;
+}
+
+/* ----------------------------------
+Search Input */
+
+.searchStuff a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25em;
+}
+
+#mySearch {
+  background-color: transparent;
+  width: 230px;
+  height: 37px;
+  border: 4px solid #FA6900;
+  border-radius: 20px;
+  outline: none;
+  padding: 5px 10px 5px 15px;;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+#instruction {
+  font-size: 1.25em;
+  color: white;
+}
+
+/* -----------------------------
+Hidden/Visible Wikipedia articles container */
+
+#article-container {
+  visibility: hidden;
+}
+
+.wiki-row {
+  background-color: #DDDDDD;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+  border-left: 7px solid #33454E;
+}
+
+.wiki-row:hover {
+  border-left: 6px solid #FA6900;
+}
+
+.wiki-row a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.title {
+  font-weight: bold;
+  margin: 25px 30px 0px 15px;
+}
+
+.extract {
+  margin: 20px 30px 20px 15px;
+}
